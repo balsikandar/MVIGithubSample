@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/erLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="gone"
+    tools:visibility="visible">
+
+    <ImageView
+        android:id="@+id/ic_failure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="@dimen/grid_3"
+        android:maxWidth="200dp"
+        android:src="@drawable/nointernet_connection" />
+
+    <TextView
+        android:id="@+id/failure_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_failure"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/something_went_wrong"
+        android:textColor="@color/something_went_wrong_color"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/failure_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/failure_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/grid_1"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="@string/alien_signal_blocking"
+        android:textColor="@color/error_desc_color"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/retry_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/grid_2"
+        android:layout_marginLeft="@dimen/grid_2"
+        android:layout_marginEnd="@dimen/grid_2"
+        android:layout_marginRight="@dimen/grid_2"
+        android:layout_marginBottom="@dimen/grid_2"
+        android:background="@drawable/boudary_green"
+        android:text="@string/retry"
+        android:textAllCaps="true"
+        android:textColor="@color/retry_background_boundary_color"
+        android:textSize="@dimen/grid_2" />
+
+</RelativeLayout>

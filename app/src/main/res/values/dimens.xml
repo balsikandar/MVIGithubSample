@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="toolbar_height">56dp</dimen>
+
+
+    //8dp Grid Sizes
+    <dimen name="grid_1">8dp</dimen>
+    <dimen name="grid_2">16dp</dimen>
+    <dimen name="grid_3">24dp</dimen>
+    <dimen name="grid_4">32dp</dimen>
+    <dimen name="grid_5">40dp</dimen>
+
+
+    <dimen name="grid_1_half">4dp</dimen>
+    <dimen name="grid_3_half">12dp</dimen>
+    <dimen name="grid_5_half">20dp</dimen>
+
+
+    //
+    <dimen name="size_21dp">21dp</dimen>
+    <dimen name="size_6dp">6dp</dimen>
+    <dimen name="size_15dp">15dp</dimen>
+</resources>

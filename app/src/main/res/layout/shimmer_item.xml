@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp">
+
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="@dimen/grid_4"
+        android:layout_height="@dimen/grid_4"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/grid_2"
+        android:layout_marginLeft="@dimen/grid_2"
+        android:background="@drawable/circle_shape_grey_filled" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="100dp"
+        android:layout_height="12dp"
+        android:layout_marginStart="@dimen/grid_2"
+        android:layout_marginLeft="@dimen/grid_2"
+        android:layout_marginTop="@dimen/size_21dp"
+        android:layout_toEndOf="@+id/view1"
+        android:layout_toRightOf="@+id/view1"
+        android:background="@color/shimmer_background"
+        app:layout_constraintTop_toTopOf="@+id/view1" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@+id/view2"
+        android:layout_alignStart="@+id/view2"
+        android:layout_alignLeft="@+id/view2"
+        android:layout_marginTop="16dp"
+        android:layout_toEndOf="@+id/view1"
+        android:layout_toRightOf="@+id/view1"
+        android:background="@color/shimmer_background" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/view3"
+        android:layout_marginTop="21dp"
+        android:background="@color/shimmer_background" />
+
+</RelativeLayout>

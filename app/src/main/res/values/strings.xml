@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Github</string>
+
+    <string name="trending">Trending</string>
+    <string name="sort_by_stars">Sort by stars</string>
+    <string name="sort_by_name">Sort by name</string>
+    <string name="retry">Retry</string>
+    <string name="something_went_wrong">Something went wrong..</string>
+    <string name="alien_signal_blocking">An Alien is probably is blocking your signal.</string>
+</resources>
